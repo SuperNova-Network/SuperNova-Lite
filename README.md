@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SuperNova-Network/SuperNova-Lite/refs/heads/main/static/images/SuperNova2.png" width="600">
+  <img src="https://github.com/SuperNova-Network/SuperNova-Lite/blob/main/static/images/jfdss.png?raw=true" height="70" width="700">
 </p>
 
 <p align="center">
