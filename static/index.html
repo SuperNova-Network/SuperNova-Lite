@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SuperNova</title>
+        <link rel="icon" type="image/png" href="./images/favicons/favicon.svg">
+        <meta name="description" content="SuperNova Lite - A lightweight and fast web application that lets you play online games.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" defer></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header">
+            <a href="" class="logo">SuperNova <span style="color: #a42323;">Lite</span></a>
+            <div id="dateTime" class="date-time"></div> <!-- New div for day and time -->
+        </div>
+
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li>
+                    <i class="fa-solid fa-gear navbar-icon settings-icon"></i>
+                    <a href="https://twitter.com/plavookac" target="_blank">Settings</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-discord" style="color: #ffffff;"></i>
+                    <a href="https://twitter.com/plavookac" target="_blank">Discord</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-code" style="color: #ffffff;"></i>
+                    <a href="https://twitter.com/plavookac" target="_blank">Cheats</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-rocket" style="color: #ffffff;"></i>
+                    <a href="https://vanila.io" target="_blank">Games</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-tablet-screen-button" style="color: #ffffff;"></i>
+                    <a href="https://instagram.com/plavookac" target="_blank">Apps</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="center" class="main center"></div>
+
+        <ul class="ul-new">
+            <li class="li-new"><a href="#">About</a></li>
+            <li class="li-new"><a href="#">Portfolio</a></li>
+            <li class="li-new"><a href="#">Blog</a></li>
+            <li class="li-new"><a href="#">Contact</a></li>
+        </ul>
+    </body>
+</html>

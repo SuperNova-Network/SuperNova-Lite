@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+span {
+    z-index: 1000;
+}
+
+body {
+    background: #111;
+    color: white;
+    margin: 0;
+    --bg-c: #111;
+    font-family: sans-serif;
+  overflow: hidden;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 60px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    backface-visibility: visible;
+    transition: 0.35s ease;
+}
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+.mainInner{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+/* Sidebar menu positioned on the left */
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0; /* Position on the left */
+    right: auto; /* Remove right positioning */
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px); /* Initially hidden on the left */
+    transition: transform 258ms ease-out;
+    background-color: #121212;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.5);
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+.sidebarMenuInner li a{
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Show the sidebar when the checkbox is checked */
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0); /* Slide in from the left */
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+/* Sidebar toggle button back to the left */
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+	background-color: black;
+}
+ 
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #222 ;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: white;
+}
+
+.header2 a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+.header2 a {
+    margin: 0;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    transition: 0.3s;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul-new { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+li-new { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 20px;
+  position: relative;
+}
+
+li:hover {
+  background-color: #161616;
+  transition: all 0.2s ease;
+}
+
+.logo {
+  font-weight: bold;
+  float: left;
+  color: black;
+  text-align: center;
+  margin-left: 28px;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 25px;
+  color: white;
+  transition: 0.3s;
+  margin-top: 6px;
+  cursor: default;
+  font-family: "Inter", sans-serif;
+}
+
+.info-box > p {
+  margin-left: 42px;
+}
+
+.date-time {
+    position: absolute; /* Enable positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for element's own dimensions */
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 25px;
+    transition: 0.3s;
+    font-family: 'karla', sans-serif;
+    font-weight: 600;
+    pointer-events: none;
+}
