@@ -1,7 +1,8 @@
-
 <p align="center">
-  <img height="160" width="840" src="https://raw.githubusercontent.com/SuperNova-Network/SuperNova-Lite/refs/heads/main/static/images/SUPERNOVA-4-19-2025.png">
+  <img src="https://raw.githubusercontent.com/SuperNova-Network/SuperNova-Lite/refs/heads/main/static/images/SuperNova2.png" width="725" height="87">
 </p>
+
+---
 
 **SuperNova-Lite** is a lightweight and stripped-down version of the original [SuperNova-DY](https://github.com/SuperNova-Network/SuperNova-DY) project, developed by the SuperNova Network. This version is built for speed, simplicity, and ease of deployment. It does away with the built-in proxy used in SuperNova-DY, removes unnecessary complexity, and focuses on offering a minimal, fast, and efficient web-based experience.
 
