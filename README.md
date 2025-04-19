@@ -1,9 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SuperNova-Network/SuperNova-Lite/refs/heads/main/static/images/SuperNova2.png" width="725" height="87">
+  <img src="https://raw.githubusercontent.com/SuperNova-Network/SuperNova-Lite/refs/heads/main/static/images/SuperNova2.png" width="600">
+</p>
+
+<p align="center">
+  A lightweight, proxy-free version of SuperNova-DY — focused on speed, simplicity, and built-in games.
 </p>
 
 ---
-
 **SuperNova-Lite** is a lightweight and stripped-down version of the original [SuperNova-DY](https://github.com/SuperNova-Network/SuperNova-DY) project, developed by the SuperNova Network. This version is built for speed, simplicity, and ease of deployment. It does away with the built-in proxy used in SuperNova-DY, removes unnecessary complexity, and focuses on offering a minimal, fast, and efficient web-based experience.
 
 SuperNova-Lite includes a collection of pre-implemented web games (not embedded from third-party sites), a clean user interface, and a straightforward user experience — ideal for lightweight hosting environments or personal use where simplicity and performance are a priority.
