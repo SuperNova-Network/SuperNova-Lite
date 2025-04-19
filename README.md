@@ -1,5 +1,5 @@
-# Save the README content as a raw .md file
-readme_content = """# SuperNova-Lite
+![SuperNova Lite](static/image/supernova-lite.png)
+# SuperNova Lite
 
 **SuperNova-Lite** is a lightweight and stripped-down version of the original [SuperNova-DY](https://github.com/SuperNova-Network/SuperNova-DY) project, developed by the SuperNova Network. This version is built for speed, simplicity, and ease of deployment. It does away with the built-in proxy used in SuperNova-DY, removes unnecessary complexity, and focuses on offering a minimal, fast, and efficient web-based experience.
 
