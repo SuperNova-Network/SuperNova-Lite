@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
 html, body {
@@ -215,7 +217,6 @@ li-new {
 }
 a {
   color: #fff;
-  text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
   padding: 2px 20px;
@@ -228,9 +229,8 @@ li:hover {
 }
 
 .logo {
-  font-weight: bold;
+  font-weight: 800;
   float: left;
-  color: black;
   text-align: center;
   margin-left: 28px;
   padding: 12px;
@@ -241,7 +241,7 @@ li:hover {
   transition: 0.3s;
   margin-top: 6px;
   cursor: default;
-  font-family: "Inter", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .info-box > p {
