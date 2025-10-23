@@ -22,10 +22,10 @@ app.use(
   })
 );
 
-app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.assets(path.join(__dirname, 'assets')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'static', 'index.html'));
+  res.sendFile(path.join(__dirname, 'assets', 'index.html'));
 });
 
 const PORT = process.env.PORT || 3000; // Use environment variable for the port
