@@ -90,6 +90,7 @@ body {
     font-weight: 400;
     cursor: pointer;
     text-decoration: none;
+    padding: 24px;
 }
 .sidebarMenuInner li a span{
     display: inline-block;
