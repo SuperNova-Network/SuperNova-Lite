@@ -77,20 +77,25 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 20px;
+    padding: 0; /* moved padding to the anchor so the whole row is clickable and icons sit left */
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
-.sidebarMenuInner li span{
-    display: block;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.50);
-}
 .sidebarMenuInner li a{
+    display: flex; /* layout icon then label horizontally */
+    align-items: center;
+    gap: 12px;
+    padding: 20px; /* touch target / spacing */
     color: #fff;
     font-weight: 400;
     cursor: pointer;
     text-decoration: none;
+}
+.sidebarMenuInner li a span{
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.90);
+    text-transform: none; /* preserve case inside label */
 }
 /* Show the sidebar when the checkbox is checked */
 input[type="checkbox"]:checked ~ #sidebarMenu {
